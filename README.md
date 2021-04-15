@@ -1,8 +1,9 @@
 # KroshServerScript-4-Ubuntu
-Auto-install Apache2, PHP 5.6, and MySQL with Adminer on your Ubuntu
+Automatized install script *Apache 2*, *PHP 5.6*, *MySQL with Adminer*
 # How do I launch it?
-Open terminal , go to the folder, where the script is located and enter:
-*chmod +x kroshserver.sh*
-start this script with ./kroshserver.sh
-and sit back and wait!
-Enjoy ;)
+```
+chmod +x ./kroshserver.sh
+./kroshserver.sh /var/www/html/
+```
+
+**/var/www/html/** could be another directory, sure.
