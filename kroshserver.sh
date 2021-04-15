@@ -8,7 +8,7 @@ echo "Apache2, PHP5.6, and MySQL, for manage - Adminer for MySQL"
 apt install -y apache2 mysql-server neofetch screenfetch python-pip software-properties-common nodejs
 sudo add-apt-repository -y ppa:ondrej/php
 sudo apt update
-sudo apt install -y php5.6 php5.6-xml php5.6-gd php5.6-mysql php5.6-sqlite3 php5.6-curl php5.6-opcache php5.6-json php5.6-xmlrpc php5.6-xmlrpc
+sudo apt install -y php5.6 php5.6-xml php5.6-gd php5.6-mysql php5.6-sqlite3 php5.6-curl php5.6-opcache php5.6-json php5.6-xmlrpc
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt update
 sudo apt install certbot
