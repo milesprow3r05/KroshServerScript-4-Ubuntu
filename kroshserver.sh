@@ -22,7 +22,7 @@ wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd6
 sudo dpkg -i mod-pagespeed-*.deb
 sudo apt -f install
 sudo rm mod-pagespeed-*.deb
-mv -f adminer-4.8.0-mysql.php adminer.phtml
+mv -f adminer-*.php adminer.phtml
 sudo a2enmod status
 sudo a2enmod info
 sudo a2enmod cgi
