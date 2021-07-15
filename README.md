@@ -7,3 +7,6 @@ chmod +x ./kroshserver.sh
 ```
 
 **/var/www/html/** could be another directory, sure.
+
+In the beginning, it should look something like this:
+[![](https://diicorp95.vercel.app/term-sheet-1626336686392.svg)](https://github.com/kroshmorkovkin/kroshserver.sh)
