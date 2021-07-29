@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install certbot
 sudo certbot run --apache
 cd $1
-wget -P $1  https://www.adminer.org/latest-mysql.php
+wget -P $1 https://www.adminer.org/latest-mysql.php
 wget -P $1 https://github.com/kroshmorkovkin/KroshServerScript-4-Ubuntu/raw/main/adminer.css
 wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
 sudo dpkg -i mod-pagespeed-*.deb
