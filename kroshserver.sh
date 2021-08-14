@@ -1,10 +1,10 @@
 #!/bin/bash
-if [ $1 == "" ];
+if [ "$1" = "" ];
 then
-  echo "Usage: $0 <directory to install>"
-  exit
+	echo -e "\033[94mUsage: \033[97m$0 <directory to install>"
+	exit
 fi
-echo "Apache2, PHP5.6, and MySQL, for manage - Adminer for MySQL"
+echo -e "\033[97mApache2, PHP5.6, and MySQL, for manage - Adminer for MySQL"
 echo "by kroshmorkovkin"
 sudo apt install -y apache2 mysql-server neofetch screenfetch python-pip software-properties-common nodejs
 sudo mysql_secure_installation
@@ -31,4 +31,4 @@ sudo a2enmod alias
 sudo a2enmod rewrite
 sudo a2enmod lua
 sudo systemctl restart apache2
-echo "Done"
+echo -e "\033[92mDone!\033[97m"
