@@ -1,4 +1,5 @@
 # KroshServerScript-4-Ubuntu
+<img alt="GitHub" src="https://img.shields.io/github/license/kroshmorkovkin/KroshServerScript-4-Ubuntu?style=plastic">
 Automatized install script *Apache 2*, *PHP 5.6*, *MySQL with Adminer*
 # How do I launch it?
 ```
